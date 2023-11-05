@@ -1,0 +1,9 @@
+/* my custom CSS on top of what the designer gave me */
+
+.card-company {
+	display: flex;
+}
+
+.jvm-recent-jobs-card-btn-apply {
+	margin: auto;
+}

@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"start": "parcel index.html --no-cache --dist-dir dist --log-level info",
+		"build-staging": "parcel build build/index.html --dist-dir dist-staging --log-level info",
+		"build-prod": "parcel build build/index.html --dist-dir dist-prod --log-level info"
+	},
+	"devDependencies": {
+		"parcel": "^2.1.0",
+		"process": "^0.11.10",
+		"sass": "^1.34.0"
+	},
+	"dependencies": {
+		"moment": "^2.29.4"
+	}
+}
