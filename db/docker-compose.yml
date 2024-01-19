@@ -1,7 +1,7 @@
 version: '3.1'
 
 services:
-  scalaitaly:
+  db:
     image: postgres
     restart: always
     volumes:

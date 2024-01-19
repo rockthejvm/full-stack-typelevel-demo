@@ -1,4 +1,4 @@
-ThisBuild / version := "1.0.1"
+ThisBuild / version := "1.0.0"
 
 lazy val rockthejvm    = "com.rockthejvm"
 lazy val scala3Version = "3.3.1"

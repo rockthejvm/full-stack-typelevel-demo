@@ -1,7 +1,4 @@
 
-create database scalaitaly;
-\c scalaitaly;
-
 create table jobs(
 	id uuid primary key default gen_random_uuid (),
 	company text not null,
