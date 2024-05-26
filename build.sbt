@@ -92,6 +92,6 @@ lazy val server = (project in file("server"))
       "org.testcontainers" % "postgresql"                    % testContainerVersion       % Test,
       "ch.qos.logback"     % "logback-classic"               % logbackVersion             % Test
     ),
-    Compile / mainClass := Some("com.rockthejvm.jobsboard.Application")
+    Compile / mainClass := Some("com.rockthejvm.livedemo.Application")
   )
   .dependsOn(core.jvm)
